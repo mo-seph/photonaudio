@@ -1,0 +1,56 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 2,
+    "fs": 48000
+  },
+  "label": "driver_thd_r13_250",
+  "notes": "In 2 = TRS across R13 (LED current, electrical only), gain 2 o'clock; supply filter fitted; housing reseated; laptop on charger; DAC bias 250",
+  "time": "2026-11-03T22:44:53",
+  "bias_code": 250,
+  "tones": [
+    {
+      "f0": 100,
+      "fundamental_dbfs": -46.5,
+      "harmonics_dbc": [
+        -69.6,
+        -73.9,
+        -91.8,
+        -85.9
+      ],
+      "thd_pct": 0.039,
+      "thd_n_pct": 0.444,
+      "snr_db": 47.1,
+      "level_dbfs": -30.0
+    },
+    {
+      "f0": 1000,
+      "fundamental_dbfs": -46.31,
+      "harmonics_dbc": [
+        -56.1,
+        -72.2,
+        -76.8,
+        -94.8
+      ],
+      "thd_pct": 0.159,
+      "thd_n_pct": 0.459,
+      "snr_db": 47.3,
+      "level_dbfs": -30.0
+    },
+    {
+      "f0": 5000,
+      "fundamental_dbfs": -46.35,
+      "harmonics_dbc": [
+        -41.7,
+        -56.6,
+        -72.1,
+        -91.0
+      ],
+      "thd_pct": 0.838,
+      "thd_n_pct": 0.943,
+      "snr_db": 47.3,
+      "level_dbfs": -30.0
+    }
+  ]
+}

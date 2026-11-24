@@ -1,0 +1,57 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "pcb_A_trimmer_zero_tissue",
+  "notes": "v1.0 PCB strip A, trimmer at zero (LED off), tissue still over the LED, same knobs as 20261117-221902_pcb_A_trimmer_mid_tissue; In 2 not connected",
+  "time": "2026-11-17T22:23:38",
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -94.9,
+    "rms_dbfs_a_weighted": -98.8,
+    "hum_dbfs": {
+      "50Hz": -115.2,
+      "100Hz": -117.4,
+      "150Hz": -112.7,
+      "200Hz": -117.6,
+      "250Hz": -116.9,
+      "300Hz": -116.7
+    },
+    "peaks": [
+      {
+        "hz": 434.0,
+        "dbfs_per_hz": -109.0,
+        "above_floor_db": 15.5
+      },
+      {
+        "hz": 145.0,
+        "dbfs_per_hz": -109.4,
+        "above_floor_db": 16.1
+      },
+      {
+        "hz": 276.0,
+        "dbfs_per_hz": -111.4,
+        "above_floor_db": 13.2
+      },
+      {
+        "hz": 1013.0,
+        "dbfs_per_hz": -118.7,
+        "above_floor_db": 16.6
+      },
+      {
+        "hz": 1592.0,
+        "dbfs_per_hz": -120.4,
+        "above_floor_db": 20.4
+      },
+      {
+        "hz": 1302.0,
+        "dbfs_per_hz": -120.8,
+        "above_floor_db": 18.1
+      }
+    ],
+    "in_ch": 1
+  }
+}

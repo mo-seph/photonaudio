@@ -1,0 +1,21 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "lowlatency_check",
+  "notes": "",
+  "time": "2026-10-23T19:37:41",
+  "sweep": {
+    "level_dbfs": -20,
+    "f1": 20,
+    "f2": 20000,
+    "secs": 8.0,
+    "latency_ms": 29.83,
+    "gain_1k_db": 2.73,
+    "minus3db_low_hz": 253.4,
+    "minus3db_high_hz": 7524.9
+  }
+}

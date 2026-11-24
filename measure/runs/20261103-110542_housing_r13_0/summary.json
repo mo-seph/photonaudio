@@ -1,0 +1,91 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "housing_r13_0",
+  "notes": "housing; In 2 = balanced TRS across R13 (sleeve open at board), gain 2 o'clock, INST off; new supply; DAC bias 0",
+  "time": "2026-11-03T11:05:42",
+  "bias_code": 0,
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -93.3,
+    "rms_dbfs_a_weighted": -98.7,
+    "hum_dbfs": {
+      "50Hz": -99.5,
+      "100Hz": -109.5,
+      "150Hz": -116.9,
+      "200Hz": -115.7,
+      "250Hz": -116.1,
+      "300Hz": -115.7
+    },
+    "peaks": [
+      {
+        "hz": 50.0,
+        "dbfs_per_hz": -101.3,
+        "above_floor_db": 25.6
+      },
+      {
+        "hz": 145.0,
+        "dbfs_per_hz": -107.5,
+        "above_floor_db": 18.3
+      },
+      {
+        "hz": 434.0,
+        "dbfs_per_hz": -107.9,
+        "above_floor_db": 16.4
+      },
+      {
+        "hz": 100.0,
+        "dbfs_per_hz": -111.6,
+        "above_floor_db": 14.8
+      },
+      {
+        "hz": 1302.0,
+        "dbfs_per_hz": -118.9,
+        "above_floor_db": 20.1
+      },
+      {
+        "hz": 1013.0,
+        "dbfs_per_hz": -119.5,
+        "above_floor_db": 16.0
+      }
+    ],
+    "monitor_in": 2,
+    "monitor": {
+      "rms_dbfs_20_20k": -90.0,
+      "rms_dbfs_a_weighted": -90.9,
+      "hum_dbfs": {
+        "50Hz": -113.6,
+        "100Hz": -123.2,
+        "150Hz": -126.9,
+        "200Hz": -127.9,
+        "250Hz": -127.0,
+        "300Hz": -127.5
+      },
+      "peaks": [
+        {
+          "hz": 639.0,
+          "dbfs_per_hz": -112.7,
+          "above_floor_db": 22.1
+        },
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -115.6,
+          "above_floor_db": 16.1
+        },
+        {
+          "hz": 1278.0,
+          "dbfs_per_hz": -122.1,
+          "above_floor_db": 13.5
+        }
+      ]
+    },
+    "in_ch": 1,
+    "monitor_transfer_1k_db": 10.2,
+    "monitor_referred_rms_dbfs": -60.4,
+    "monitor_referred_50hz_dbfs": -156.2
+  }
+}

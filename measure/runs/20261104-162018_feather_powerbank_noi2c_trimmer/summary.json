@@ -1,0 +1,105 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "feather_powerbank_noi2c_trimmer",
+  "notes": "BIAS_SEL on the TRIMMER; Feather on a USB power bank, GND wired locally, SDA/SCL DISCONNECTED (firmware loop still running, I2C writes go nowhere); new unearthed supply + RC; laptop on charger; In 2 on R13; housing",
+  "time": "2026-11-04T16:20:18",
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -63.8,
+    "rms_dbfs_a_weighted": -72.8,
+    "hum_dbfs": {
+      "50Hz": -66.4,
+      "100Hz": -71.8,
+      "150Hz": -76.1,
+      "200Hz": -78.1,
+      "250Hz": -82.0,
+      "300Hz": -83.4
+    },
+    "peaks": [
+      {
+        "hz": 50.0,
+        "dbfs_per_hz": -68.1,
+        "above_floor_db": 38.7
+      },
+      {
+        "hz": 100.0,
+        "dbfs_per_hz": -73.6,
+        "above_floor_db": 33.0
+      },
+      {
+        "hz": 150.0,
+        "dbfs_per_hz": -77.9,
+        "above_floor_db": 29.8
+      },
+      {
+        "hz": 200.0,
+        "dbfs_per_hz": -79.9,
+        "above_floor_db": 28.9
+      },
+      {
+        "hz": 350.0,
+        "dbfs_per_hz": -83.2,
+        "above_floor_db": 27.6
+      },
+      {
+        "hz": 250.0,
+        "dbfs_per_hz": -83.9,
+        "above_floor_db": 25.5
+      }
+    ],
+    "monitor_in": 2,
+    "monitor": {
+      "rms_dbfs_20_20k": -86.1,
+      "rms_dbfs_a_weighted": -95.2,
+      "hum_dbfs": {
+        "50Hz": -87.9,
+        "100Hz": -96.1,
+        "150Hz": -101.3,
+        "200Hz": -103.7,
+        "250Hz": -107.7,
+        "300Hz": -109.5
+      },
+      "peaks": [
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -89.7,
+          "above_floor_db": 42.4
+        },
+        {
+          "hz": 100.0,
+          "dbfs_per_hz": -97.9,
+          "above_floor_db": 36.4
+        },
+        {
+          "hz": 150.0,
+          "dbfs_per_hz": -103.1,
+          "above_floor_db": 31.8
+        },
+        {
+          "hz": 200.0,
+          "dbfs_per_hz": -105.5,
+          "above_floor_db": 30.2
+        },
+        {
+          "hz": 350.0,
+          "dbfs_per_hz": -108.9,
+          "above_floor_db": 27.6
+        },
+        {
+          "hz": 250.0,
+          "dbfs_per_hz": -109.4,
+          "above_floor_db": 26.8
+        }
+      ]
+    },
+    "in_ch": 1,
+    "monitor_transfer_1k_db": 26.0,
+    "monitor_referred_rms_dbfs": -62.9,
+    "monitor_referred_50hz_dbfs": -66.2
+  }
+}

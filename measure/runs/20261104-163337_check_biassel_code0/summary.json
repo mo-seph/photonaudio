@@ -1,0 +1,22 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "check_biassel_code0",
+  "notes": "",
+  "time": "2026-11-04T16:33:37",
+  "bias_code": 0,
+  "sweep": {
+    "level_dbfs": -30.0,
+    "f1": 20,
+    "f2": 20000,
+    "secs": 8.0,
+    "latency_ms": 29.81,
+    "gain_1k_db": -78.59,
+    "minus3db_low_hz": 20.5,
+    "minus3db_high_hz": 19999.5
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "supplyfilter_r13_250",
+  "notes": "supply filter: R24 10R + C17 1000uF 35V after C1 (C17 - leg to supply GND wire); D1 not fitted; 12 V SMPS (new supply); laptop on charger; housing; In 2 = TRS across R13, gain 2 o'clock; DAC bias 250",
+  "time": "2026-11-03T22:32:17",
+  "bias_code": 250,
+  "sweep": {
+    "level_dbfs": -30.0,
+    "f1": 20,
+    "f2": 20000,
+    "secs": 8.0,
+    "latency_ms": 29.83,
+    "gain_1k_db": 16.93,
+    "minus3db_low_hz": 90.8,
+    "minus3db_high_hz": 17165.0
+  },
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -69.6,
+    "rms_dbfs_a_weighted": -74.3,
+    "hum_dbfs": {
+      "50Hz": -74.5,
+      "100Hz": -83.3,
+      "150Hz": -87.6,
+      "200Hz": -89.2,
+      "250Hz": -88.5,
+      "300Hz": -92.2
+    },
+    "peaks": [
+      {
+        "hz": 50.0,
+        "dbfs_per_hz": -76.3,
+        "above_floor_db": 27.9
+      },
+      {
+        "hz": 100.0,
+        "dbfs_per_hz": -85.2,
+        "above_floor_db": 18.6
+      },
+      {
+        "hz": 350.0,
+        "dbfs_per_hz": -86.0,
+        "above_floor_db": 21.5
+      },
+      {
+        "hz": 150.0,
+        "dbfs_per_hz": -89.8,
+        "above_floor_db": 14.7
+      },
+      {
+        "hz": 250.0,
+        "dbfs_per_hz": -90.4,
+        "above_floor_db": 15.5
+      },
+      {
+        "hz": 200.0,
+        "dbfs_per_hz": -91.3,
+        "above_floor_db": 14.0
+      }
+    ],
+    "monitor_in": 2,
+    "monitor": {
+      "rms_dbfs_20_20k": -93.4,
+      "rms_dbfs_a_weighted": -96.7,
+      "hum_dbfs": {
+        "50Hz": -100.1,
+        "100Hz": -112.0,
+        "150Hz": -116.6,
+        "200Hz": -118.6,
+        "250Hz": -118.3,
+        "300Hz": -122.4
+      },
+      "peaks": [
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -101.9,
+          "above_floor_db": 29.4
+        },
+        {
+          "hz": 100.0,
+          "dbfs_per_hz": -113.9,
+          "above_floor_db": 19.6
+        },
+        {
+          "hz": 350.0,
+          "dbfs_per_hz": -116.1,
+          "above_floor_db": 20.2
+        },
+        {
+          "hz": 150.0,
+          "dbfs_per_hz": -118.6,
+          "above_floor_db": 16.0
+        },
+        {
+          "hz": 250.0,
+          "dbfs_per_hz": -120.4,
+          "above_floor_db": 15.4
+        },
+        {
+          "hz": 200.0,
+          "dbfs_per_hz": -120.8,
+          "above_floor_db": 14.5
+        }
+      ]
+    },
+    "in_ch": 1,
+    "monitor_transfer_1k_db": 30.4,
+    "monitor_referred_rms_dbfs": -64.7,
+    "monitor_referred_50hz_dbfs": -74.3
+  },
+  "tones": [
+    {
+      "f0": 100,
+      "fundamental_dbfs": -17.68,
+      "harmonics_dbc": [
+        -42.1,
+        -54.8,
+        -70.2,
+        -81.2
+      ],
+      "thd_pct": 0.805,
+      "thd_n_pct": 0.841,
+      "snr_db": 52.3,
+      "level_dbfs": -30.0
+    },
+    {
+      "f0": 1000,
+      "fundamental_dbfs": -15.86,
+      "harmonics_dbc": [
+        -37.9,
+        -51.0,
+        -64.4,
+        -78.2
+      ],
+      "thd_pct": 1.312,
+      "thd_n_pct": 1.328,
+      "snr_db": 53.8,
+      "level_dbfs": -30.0
+    },
+    {
+      "f0": 5000,
+      "fundamental_dbfs": -16.3,
+      "harmonics_dbc": [
+        -31.3,
+        -63.9,
+        -62.0,
+        -92.5
+      ],
+      "thd_pct": 2.736,
+      "thd_n_pct": 2.744,
+      "snr_db": 53.5,
+      "level_dbfs": -30.0
+    }
+  ],
+  "levels": [
+    {
+      "level_dbfs": -50.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -35.82,
+      "harmonics_dbc": [
+        -58.6,
+        -67.8,
+        -68.6,
+        -75.1
+      ],
+      "thd_pct": 0.13,
+      "thd_n_pct": 2.031,
+      "snr_db": 33.9
+    },
+    {
+      "level_dbfs": -48.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -33.83,
+      "harmonics_dbc": [
+        -56.7,
+        -67.5,
+        -67.3,
+        -73.8
+      ],
+      "thd_pct": 0.159,
+      "thd_n_pct": 1.521,
+      "snr_db": 36.4
+    },
+    {
+      "level_dbfs": -46.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -31.82,
+      "harmonics_dbc": [
+        -56.4,
+        -69.8,
+        -76.1,
+        -74.3
+      ],
+      "thd_pct": 0.156,
+      "thd_n_pct": 1.246,
+      "snr_db": 38.2
+    },
+    {
+      "level_dbfs": -44.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -29.82,
+      "harmonics_dbc": [
+        -53.7,
+        -75.9,
+        -70.0,
+        -76.2
+      ],
+      "thd_pct": 0.21,
+      "thd_n_pct": 0.998,
+      "snr_db": 40.2
+    },
+    {
+      "level_dbfs": -42.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -27.83,
+      "harmonics_dbc": [
+        -50.3,
+        -80.4,
+        -76.4,
+        -80.0
+      ],
+      "thd_pct": 0.305,
+      "thd_n_pct": 0.878,
+      "snr_db": 41.7
+    },
+    {
+      "level_dbfs": -40.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -25.83,
+      "harmonics_dbc": [
+        -48.8,
+        -71.9,
+        -76.5,
+        -83.1
+      ],
+      "thd_pct": 0.365,
+      "thd_n_pct": 0.729,
+      "snr_db": 44.0
+    },
+    {
+      "level_dbfs": -38.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -23.83,
+      "harmonics_dbc": [
+        -47.0,
+        -68.5,
+        -92.2,
+        -84.7
+      ],
+      "thd_pct": 0.45,
+      "thd_n_pct": 0.703,
+      "snr_db": 45.3
+    },
+    {
+      "level_dbfs": -36.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -21.84,
+      "harmonics_dbc": [
+        -44.7,
+        -65.4,
+        -78.2,
+        -83.0
+      ],
+      "thd_pct": 0.587,
+      "thd_n_pct": 0.709,
+      "snr_db": 48.0
+    },
+    {
+      "level_dbfs": -34.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -19.85,
+      "harmonics_dbc": [
+        -42.6,
+        -59.7,
+        -79.0,
+        -86.5
+      ],
+      "thd_pct": 0.751,
+      "thd_n_pct": 0.817,
+      "snr_db": 49.8
+    },
+    {
+      "level_dbfs": -32.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -17.86,
+      "harmonics_dbc": [
+        -40.3,
+        -56.0,
+        -70.9,
+        -84.2
+      ],
+      "thd_pct": 0.98,
+      "thd_n_pct": 1.014,
+      "snr_db": 51.6
+    },
+    {
+      "level_dbfs": -30.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -15.88,
+      "harmonics_dbc": [
+        -38.0,
+        -51.0,
+        -65.7,
+        -76.4
+      ],
+      "thd_pct": 1.298,
+      "thd_n_pct": 1.315,
+      "snr_db": 53.7
+    },
+    {
+      "level_dbfs": -28.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -13.9,
+      "harmonics_dbc": [
+        -35.3,
+        -46.4,
+        -58.2,
+        -71.9
+      ],
+      "thd_pct": 1.793,
+      "thd_n_pct": 1.8,
+      "snr_db": 55.7
+    }
+  ]
+}

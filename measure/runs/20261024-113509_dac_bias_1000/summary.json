@@ -1,0 +1,38 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "dac_bias_1000",
+  "notes": "noise with the bias held by the DAC (code 1000); Feather GND not wired; R20 1k, no C10",
+  "time": "2026-10-24T11:35:09",
+  "bias_code": 1000,
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -71.5,
+    "rms_dbfs_a_weighted": -74.0,
+    "hum_dbfs": {
+      "50Hz": -80.4,
+      "100Hz": -89.8,
+      "150Hz": -87.7,
+      "200Hz": -93.9,
+      "250Hz": -96.0,
+      "300Hz": -97.3
+    },
+    "peaks": [
+      {
+        "hz": 50.0,
+        "dbfs_per_hz": -82.2,
+        "above_floor_db": 20.9
+      },
+      {
+        "hz": 150.0,
+        "dbfs_per_hz": -89.7,
+        "above_floor_db": 15.1
+      }
+    ],
+    "in_ch": 1
+  }
+}

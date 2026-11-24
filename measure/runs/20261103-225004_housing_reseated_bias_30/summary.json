@@ -1,0 +1,121 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "housing_reseated_bias_30",
+  "notes": "housing reseated; supply filter R24 10R + C17 1000uF; D1 not fitted; 12 V SMPS; laptop on charger; In 2 on R13; bias sweep at -30 dBFS drive",
+  "time": "2026-11-03T22:50:04",
+  "bias_sweep": [
+    {
+      "code": 150,
+      "dac_volts": 0.121,
+      "level_dbfs": -30.0,
+      "gain_db": 19.11,
+      "thd_pct": 16.606,
+      "thd_n_pct": 16.668,
+      "h2_dbc": -16.2,
+      "h3_dbc": -24.7,
+      "noise_dbfs": -64.5,
+      "snr_db": 50.6
+    },
+    {
+      "code": 200,
+      "dac_volts": 0.161,
+      "level_dbfs": -30.0,
+      "gain_db": 20.83,
+      "thd_pct": 2.242,
+      "thd_n_pct": 2.253,
+      "h2_dbc": -33.3,
+      "h3_dbc": -44.5,
+      "noise_dbfs": -65.4,
+      "snr_db": 53.2
+    },
+    {
+      "code": 250,
+      "dac_volts": 0.201,
+      "level_dbfs": -30.0,
+      "gain_db": 21.08,
+      "thd_pct": 0.996,
+      "thd_n_pct": 1.018,
+      "h2_dbc": -40.2,
+      "h3_dbc": -54.3,
+      "noise_dbfs": -65.6,
+      "snr_db": 53.7
+    },
+    {
+      "code": 300,
+      "dac_volts": 0.242,
+      "level_dbfs": -30.0,
+      "gain_db": 21.21,
+      "thd_pct": 0.564,
+      "thd_n_pct": 0.604,
+      "h2_dbc": -45.1,
+      "h3_dbc": -60.1,
+      "noise_dbfs": -65.5,
+      "snr_db": 53.7
+    },
+    {
+      "code": 350,
+      "dac_volts": 0.282,
+      "level_dbfs": -30.0,
+      "gain_db": 21.28,
+      "thd_pct": 0.327,
+      "thd_n_pct": 0.39,
+      "h2_dbc": -49.9,
+      "h3_dbc": -64.5,
+      "noise_dbfs": -65.5,
+      "snr_db": 53.8
+    },
+    {
+      "code": 400,
+      "dac_volts": 0.322,
+      "level_dbfs": -30.0,
+      "gain_db": 21.3,
+      "thd_pct": 0.171,
+      "thd_n_pct": 0.271,
+      "h2_dbc": -55.7,
+      "h3_dbc": -66.8,
+      "noise_dbfs": -65.3,
+      "snr_db": 53.6
+    },
+    {
+      "code": 450,
+      "dac_volts": 0.363,
+      "level_dbfs": -30.0,
+      "gain_db": 21.29,
+      "thd_pct": 0.155,
+      "thd_n_pct": 0.264,
+      "h2_dbc": -56.5,
+      "h3_dbc": -67.8,
+      "noise_dbfs": -65.1,
+      "snr_db": 53.4
+    },
+    {
+      "code": 500,
+      "dac_volts": 0.403,
+      "level_dbfs": -30.0,
+      "gain_db": 21.23,
+      "thd_pct": 0.249,
+      "thd_n_pct": 0.329,
+      "h2_dbc": -52.2,
+      "h3_dbc": -68.4,
+      "noise_dbfs": -65.2,
+      "snr_db": 53.4
+    },
+    {
+      "code": 550,
+      "dac_volts": 0.443,
+      "level_dbfs": -30.0,
+      "gain_db": 21.14,
+      "thd_pct": 0.373,
+      "thd_n_pct": 0.433,
+      "h2_dbc": -48.6,
+      "h3_dbc": -69.6,
+      "noise_dbfs": -65.2,
+      "snr_db": 53.3
+    }
+  ]
+}

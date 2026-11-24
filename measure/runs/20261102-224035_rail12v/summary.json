@@ -1,0 +1,73 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "rail12v",
+  "notes": "In 2 = 12 V rail via 100 nF DC block (tip), ring to GND at regulator; In 1 = photosensor; mid bias 2048",
+  "time": "2026-11-02T22:40:35",
+  "bias_code": 2048,
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -49.2,
+    "rms_dbfs_a_weighted": -49.3,
+    "hum_dbfs": {
+      "50Hz": -69.5,
+      "100Hz": -88.1,
+      "150Hz": -78.2,
+      "200Hz": -89.7,
+      "250Hz": -89.1,
+      "300Hz": -92.4
+    },
+    "peaks": [
+      {
+        "hz": 50.0,
+        "dbfs_per_hz": -71.3,
+        "above_floor_db": 29.7
+      },
+      {
+        "hz": 150.0,
+        "dbfs_per_hz": -80.1,
+        "above_floor_db": 20.8
+      },
+      {
+        "hz": 258.0,
+        "dbfs_per_hz": -88.9,
+        "above_floor_db": 12.3
+      }
+    ],
+    "monitor_in": 2,
+    "monitor": {
+      "rms_dbfs_20_20k": -34.5,
+      "rms_dbfs_a_weighted": -34.9,
+      "hum_dbfs": {
+        "50Hz": -51.0,
+        "100Hz": -72.9,
+        "150Hz": -63.4,
+        "200Hz": -74.7,
+        "250Hz": -74.2,
+        "300Hz": -77.9
+      },
+      "peaks": [
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -52.8,
+          "above_floor_db": 28.9
+        },
+        {
+          "hz": 150.0,
+          "dbfs_per_hz": -65.3,
+          "above_floor_db": 20.6
+        },
+        {
+          "hz": 258.0,
+          "dbfs_per_hz": -74.2,
+          "above_floor_db": 12.5
+        }
+      ]
+    },
+    "in_ch": 1
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "battery9v_laptopbatt_r13_250",
+  "notes": "9 V PP3 battery; laptop on battery (charger unplugged); housing; In 2 = TRS across R13, gain 2 o'clock; DAC bias 250",
+  "time": "2026-11-03T11:26:27",
+  "bias_code": 250,
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -63.0,
+    "rms_dbfs_a_weighted": -66.0,
+    "hum_dbfs": {
+      "50Hz": -82.2,
+      "100Hz": -84.7,
+      "150Hz": -89.6,
+      "200Hz": -86.8,
+      "250Hz": -87.2,
+      "300Hz": -89.8
+    },
+    "peaks": [
+      {
+        "hz": 8000.0,
+        "dbfs_per_hz": -95.5,
+        "above_floor_db": 12.5
+      }
+    ],
+    "monitor_in": 2,
+    "monitor": {
+      "rms_dbfs_20_20k": -94.6,
+      "rms_dbfs_a_weighted": -96.8,
+      "hum_dbfs": {
+        "50Hz": -112.0,
+        "100Hz": -126.0,
+        "150Hz": -121.6,
+        "200Hz": -128.4,
+        "250Hz": -124.0,
+        "300Hz": -129.7
+      },
+      "peaks": [
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -113.9,
+          "above_floor_db": 17.3
+        }
+      ]
+    },
+    "in_ch": 1,
+    "monitor_transfer_1k_db": 41.1,
+    "monitor_referred_rms_dbfs": -54.3,
+    "monitor_referred_50hz_dbfs": -74.5
+  }
+}

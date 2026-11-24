@@ -1,0 +1,328 @@
+{
+  "label": "dacnoise_450",
+  "notes": "new unearthed supply + RC filter; Feather ground fixed; laptop on charger; In 2 on R13; housing",
+  "time": "2026-11-04T15:58:17",
+  "code": 450,
+  "span": 60,
+  "period_s": 3.0,
+  "rate_hz": 500,
+  "ramp_steps_per_s": 80.0,
+  "cases": {
+    "steady": {
+      "writes_per_s": 0.0,
+      "in1_bands_dbfs": {
+        "20-20000": -61.1,
+        "20-300": -63.0,
+        "300-2500": -69.0,
+        "2500-20000": -68.0
+      },
+      "monitor_bands_dbfs": {
+        "20-20000": -93.3,
+        "20-300": -98.6,
+        "300-2500": -103.2,
+        "2500-20000": -95.5
+      },
+      "in1_peaks": [
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -67.0,
+          "above_floor_db": 28.1
+        },
+        {
+          "hz": 100.0,
+          "dbfs_per_hz": -73.8,
+          "above_floor_db": 22.5
+        },
+        {
+          "hz": 150.0,
+          "dbfs_per_hz": -78.0,
+          "above_floor_db": 19.2
+        },
+        {
+          "hz": 200.0,
+          "dbfs_per_hz": -79.1,
+          "above_floor_db": 19.4
+        },
+        {
+          "hz": 250.0,
+          "dbfs_per_hz": -80.9,
+          "above_floor_db": 18.3
+        },
+        {
+          "hz": 350.0,
+          "dbfs_per_hz": -81.0,
+          "above_floor_db": 19.6
+        }
+      ],
+      "monitor_peaks": [
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -101.6,
+          "above_floor_db": 29.4
+        },
+        {
+          "hz": 100.0,
+          "dbfs_per_hz": -110.5,
+          "above_floor_db": 22.8
+        },
+        {
+          "hz": 150.0,
+          "dbfs_per_hz": -115.7,
+          "above_floor_db": 18.9
+        },
+        {
+          "hz": 200.0,
+          "dbfs_per_hz": -117.9,
+          "above_floor_db": 17.3
+        },
+        {
+          "hz": 350.0,
+          "dbfs_per_hz": -118.7,
+          "above_floor_db": 17.2
+        },
+        {
+          "hz": 250.0,
+          "dbfs_per_hz": -118.8,
+          "above_floor_db": 16.5
+        }
+      ]
+    },
+    "usb": {
+      "writes_per_s": 500.0,
+      "in1_bands_dbfs": {
+        "20-20000": -61.2,
+        "20-300": -63.1,
+        "300-2500": -69.2,
+        "2500-20000": -67.9
+      },
+      "monitor_bands_dbfs": {
+        "20-20000": -93.3,
+        "20-300": -98.7,
+        "300-2500": -103.2,
+        "2500-20000": -95.5
+      },
+      "in1_peaks": [
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -66.9,
+          "above_floor_db": 28.6
+        },
+        {
+          "hz": 100.0,
+          "dbfs_per_hz": -73.4,
+          "above_floor_db": 22.6
+        },
+        {
+          "hz": 150.0,
+          "dbfs_per_hz": -77.7,
+          "above_floor_db": 19.5
+        },
+        {
+          "hz": 200.0,
+          "dbfs_per_hz": -78.8,
+          "above_floor_db": 19.4
+        },
+        {
+          "hz": 250.0,
+          "dbfs_per_hz": -81.1,
+          "above_floor_db": 18.0
+        },
+        {
+          "hz": 350.0,
+          "dbfs_per_hz": -81.1,
+          "above_floor_db": 20.2
+        }
+      ],
+      "monitor_peaks": [
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -101.7,
+          "above_floor_db": 29.4
+        },
+        {
+          "hz": 100.0,
+          "dbfs_per_hz": -110.5,
+          "above_floor_db": 22.8
+        },
+        {
+          "hz": 150.0,
+          "dbfs_per_hz": -115.5,
+          "above_floor_db": 18.9
+        },
+        {
+          "hz": 200.0,
+          "dbfs_per_hz": -118.2,
+          "above_floor_db": 17.1
+        },
+        {
+          "hz": 350.0,
+          "dbfs_per_hz": -119.0,
+          "above_floor_db": 17.3
+        },
+        {
+          "hz": 250.0,
+          "dbfs_per_hz": -119.1,
+          "above_floor_db": 16.5
+        }
+      ]
+    },
+    "rewrite": {
+      "writes_per_s": 500.0,
+      "in1_bands_dbfs": {
+        "20-20000": -54.5,
+        "20-300": -62.3,
+        "300-2500": -56.0,
+        "2500-20000": -63.1
+      },
+      "monitor_bands_dbfs": {
+        "20-20000": -90.8,
+        "20-300": -98.2,
+        "300-2500": -94.5,
+        "2500-20000": -94.8
+      },
+      "in1_peaks": [
+        {
+          "hz": 500.0,
+          "dbfs_per_hz": -62.4,
+          "above_floor_db": 29.8
+        },
+        {
+          "hz": 1000.0,
+          "dbfs_per_hz": -63.7,
+          "above_floor_db": 29.7
+        },
+        {
+          "hz": 1500.0,
+          "dbfs_per_hz": -65.5,
+          "above_floor_db": 36.2
+        },
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -66.7,
+          "above_floor_db": 27.4
+        },
+        {
+          "hz": 2000.0,
+          "dbfs_per_hz": -71.3,
+          "above_floor_db": 29.7
+        },
+        {
+          "hz": 100.0,
+          "dbfs_per_hz": -73.2,
+          "above_floor_db": 19.7
+        }
+      ],
+      "monitor_peaks": [
+        {
+          "hz": 500.0,
+          "dbfs_per_hz": -101.2,
+          "above_floor_db": 29.2
+        },
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -101.6,
+          "above_floor_db": 28.4
+        },
+        {
+          "hz": 1000.0,
+          "dbfs_per_hz": -102.6,
+          "above_floor_db": 28.8
+        },
+        {
+          "hz": 1500.0,
+          "dbfs_per_hz": -104.4,
+          "above_floor_db": 31.9
+        },
+        {
+          "hz": 2000.0,
+          "dbfs_per_hz": -110.2,
+          "above_floor_db": 25.7
+        },
+        {
+          "hz": 100.0,
+          "dbfs_per_hz": -110.5,
+          "above_floor_db": 19.7
+        }
+      ]
+    },
+    "ramp": {
+      "writes_per_s": 500.0,
+      "in1_bands_dbfs": {
+        "20-20000": -51.3,
+        "20-300": -53.6,
+        "300-2500": -55.8,
+        "2500-20000": -63.4
+      },
+      "monitor_bands_dbfs": {
+        "20-20000": -88.2,
+        "20-300": -91.1,
+        "300-2500": -94.0,
+        "2500-20000": -94.8
+      },
+      "in1_peaks": [
+        {
+          "hz": 80.0,
+          "dbfs_per_hz": -59.2,
+          "above_floor_db": 25.5
+        },
+        {
+          "hz": 500.0,
+          "dbfs_per_hz": -62.5,
+          "above_floor_db": 30.3
+        },
+        {
+          "hz": 1000.0,
+          "dbfs_per_hz": -63.9,
+          "above_floor_db": 30.4
+        },
+        {
+          "hz": 1500.0,
+          "dbfs_per_hz": -65.7,
+          "above_floor_db": 34.2
+        },
+        {
+          "hz": 160.0,
+          "dbfs_per_hz": -66.3,
+          "above_floor_db": 19.9
+        },
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -66.8,
+          "above_floor_db": 17.4
+        }
+      ],
+      "monitor_peaks": [
+        {
+          "hz": 80.0,
+          "dbfs_per_hz": -96.9,
+          "above_floor_db": 24.5
+        },
+        {
+          "hz": 500.0,
+          "dbfs_per_hz": -101.1,
+          "above_floor_db": 29.6
+        },
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -101.4,
+          "above_floor_db": 18.1
+        },
+        {
+          "hz": 1000.0,
+          "dbfs_per_hz": -102.5,
+          "above_floor_db": 28.9
+        },
+        {
+          "hz": 1500.0,
+          "dbfs_per_hz": -104.3,
+          "above_floor_db": 30.9
+        },
+        {
+          "hz": 160.0,
+          "dbfs_per_hz": -104.9,
+          "above_floor_db": 19.4
+        }
+      ]
+    }
+  }
+}

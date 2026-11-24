@@ -1,0 +1,22 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "housing_bias4000_check",
+  "notes": "diagnostic: bias 4000, housing",
+  "time": "2026-11-03T10:35:58",
+  "bias_code": 4000,
+  "sweep": {
+    "level_dbfs": -30.0,
+    "f1": 20,
+    "f2": 20000,
+    "secs": 8.0,
+    "latency_ms": 29.83,
+    "gain_1k_db": -50.83,
+    "minus3db_low_hz": 85.0,
+    "minus3db_high_hz": 19999.5
+  }
+}

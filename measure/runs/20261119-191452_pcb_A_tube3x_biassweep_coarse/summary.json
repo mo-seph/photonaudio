@@ -1,0 +1,181 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "pcb_A_tube3x_biassweep_coarse",
+  "notes": "v1.0 PCB strip A, XIAO S3 + MCP4728 on board running dac_test (USB to laptop), BIAS_SEL2 on DAC; new test tube ~3x longer, no tissue; same knobs as 20261117 runs; In 2 not connected",
+  "time": "2026-11-19T19:14:52",
+  "bias_sweep": [
+    {
+      "code": 100,
+      "dac_volts": 0.081,
+      "level_dbfs": -30.0,
+      "gain_db": 15.06,
+      "thd_pct": 36.827,
+      "thd_n_pct": 37.981,
+      "h2_dbc": -9.4,
+      "h3_dbc": -19.6,
+      "noise_dbfs": -66.2,
+      "snr_db": 48.2
+    },
+    {
+      "code": 400,
+      "dac_volts": 0.322,
+      "level_dbfs": -30.0,
+      "gain_db": 17.5,
+      "thd_pct": 0.431,
+      "thd_n_pct": 0.451,
+      "h2_dbc": -47.4,
+      "h3_dbc": -64.1,
+      "noise_dbfs": -73.9,
+      "snr_db": 58.4
+    },
+    {
+      "code": 700,
+      "dac_volts": 0.564,
+      "level_dbfs": -30.0,
+      "gain_db": 17.23,
+      "thd_pct": 0.328,
+      "thd_n_pct": 0.357,
+      "h2_dbc": -49.7,
+      "h3_dbc": -78.5,
+      "noise_dbfs": -73.3,
+      "snr_db": 57.5
+    },
+    {
+      "code": 1000,
+      "dac_volts": 0.806,
+      "level_dbfs": -30.0,
+      "gain_db": 16.88,
+      "thd_pct": 0.422,
+      "thd_n_pct": 0.449,
+      "h2_dbc": -47.5,
+      "h3_dbc": -82.1,
+      "noise_dbfs": -72.7,
+      "snr_db": 56.6
+    },
+    {
+      "code": 1300,
+      "dac_volts": 1.048,
+      "level_dbfs": -30.0,
+      "gain_db": 16.36,
+      "thd_pct": 0.565,
+      "thd_n_pct": 0.589,
+      "h2_dbc": -45.0,
+      "h3_dbc": -81.8,
+      "noise_dbfs": -72.2,
+      "snr_db": 55.6
+    },
+    {
+      "code": 1600,
+      "dac_volts": 1.289,
+      "level_dbfs": -30.0,
+      "gain_db": 15.59,
+      "thd_pct": 0.929,
+      "thd_n_pct": 0.947,
+      "h2_dbc": -40.6,
+      "h3_dbc": -71.0,
+      "noise_dbfs": -72.1,
+      "snr_db": 54.7
+    },
+    {
+      "code": 1900,
+      "dac_volts": 1.531,
+      "level_dbfs": -30.0,
+      "gain_db": 15.05,
+      "thd_pct": 0.719,
+      "thd_n_pct": 0.745,
+      "h2_dbc": -42.9,
+      "h3_dbc": -71.7,
+      "noise_dbfs": -72.1,
+      "snr_db": 54.1
+    },
+    {
+      "code": 2200,
+      "dac_volts": 1.773,
+      "level_dbfs": -30.0,
+      "gain_db": 14.14,
+      "thd_pct": 1.002,
+      "thd_n_pct": 1.025,
+      "h2_dbc": -40.0,
+      "h3_dbc": -74.7,
+      "noise_dbfs": -72.3,
+      "snr_db": 53.4
+    },
+    {
+      "code": 2500,
+      "dac_volts": 2.015,
+      "level_dbfs": -30.0,
+      "gain_db": 12.56,
+      "thd_pct": 2.737,
+      "thd_n_pct": 2.747,
+      "h2_dbc": -31.3,
+      "h3_dbc": -51.2,
+      "noise_dbfs": -73.6,
+      "snr_db": 53.1
+    },
+    {
+      "code": 2800,
+      "dac_volts": 2.256,
+      "level_dbfs": -30.0,
+      "gain_db": -10.82,
+      "thd_pct": 18.684,
+      "thd_n_pct": 18.697,
+      "h2_dbc": -14.9,
+      "h3_dbc": -26.4,
+      "noise_dbfs": -93.1,
+      "snr_db": 49.3
+    },
+    {
+      "code": 3100,
+      "dac_volts": 2.498,
+      "level_dbfs": -30.0,
+      "gain_db": -19.02,
+      "thd_pct": 6.007,
+      "thd_n_pct": 6.05,
+      "h2_dbc": -24.5,
+      "h3_dbc": -46.7,
+      "noise_dbfs": -94.6,
+      "snr_db": 42.6
+    },
+    {
+      "code": 3400,
+      "dac_volts": 2.74,
+      "level_dbfs": -30.0,
+      "gain_db": -22.91,
+      "thd_pct": 4.112,
+      "thd_n_pct": 4.244,
+      "h2_dbc": -27.7,
+      "h3_dbc": -55.0,
+      "noise_dbfs": -95.1,
+      "snr_db": 39.2
+    },
+    {
+      "code": 3700,
+      "dac_volts": 2.982,
+      "level_dbfs": -30.0,
+      "gain_db": -25.85,
+      "thd_pct": 3.44,
+      "thd_n_pct": 3.729,
+      "h2_dbc": -29.3,
+      "h3_dbc": -59.7,
+      "noise_dbfs": -95.3,
+      "snr_db": 36.4
+    },
+    {
+      "code": 4000,
+      "dac_volts": 3.223,
+      "level_dbfs": -30.0,
+      "gain_db": -30.1,
+      "thd_pct": 19.368,
+      "thd_n_pct": 19.565,
+      "h2_dbc": -14.8,
+      "h3_dbc": -23.8,
+      "noise_dbfs": -94.9,
+      "snr_db": 31.8
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "boxed_links",
+  "notes": "as boxed, but C7/C8 bypassed with wire links (DC-coupled input)",
+  "time": "2026-10-24T10:11:27",
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -73.9,
+    "rms_dbfs_a_weighted": -76.6,
+    "hum_dbfs": {
+      "50Hz": -88.0,
+      "100Hz": -97.6,
+      "150Hz": -100.4,
+      "200Hz": -100.6,
+      "250Hz": -100.6,
+      "300Hz": -102.2
+    }
+  }
+}

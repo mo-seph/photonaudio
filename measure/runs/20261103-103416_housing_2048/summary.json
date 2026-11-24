@@ -1,0 +1,384 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "housing_2048",
+  "notes": "LED + sensor in light-tight housing; new 12 V supply; In 2 unplugged; genuine MCP6002, R9 1.6k, C9 1 nF, C10 0.47 uF; DAC bias 2048",
+  "time": "2026-11-03T10:34:16",
+  "bias_code": 2048,
+  "sweep": {
+    "level_dbfs": -30.0,
+    "f1": 20,
+    "f2": 20000,
+    "secs": 8.0,
+    "latency_ms": 29.83,
+    "gain_1k_db": -41.1,
+    "minus3db_low_hz": 76.2,
+    "minus3db_high_hz": 19999.5
+  },
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -93.4,
+    "rms_dbfs_a_weighted": -102.8,
+    "hum_dbfs": {
+      "50Hz": -98.8,
+      "100Hz": -110.3,
+      "150Hz": -118.1,
+      "200Hz": -119.0,
+      "250Hz": -118.1,
+      "300Hz": -119.8
+    },
+    "peaks": [
+      {
+        "hz": 50.0,
+        "dbfs_per_hz": -100.6,
+        "above_floor_db": 25.7
+      },
+      {
+        "hz": 145.0,
+        "dbfs_per_hz": -100.6,
+        "above_floor_db": 26.7
+      },
+      {
+        "hz": 276.0,
+        "dbfs_per_hz": -110.8,
+        "above_floor_db": 19.9
+      },
+      {
+        "hz": 100.0,
+        "dbfs_per_hz": -112.4,
+        "above_floor_db": 14.1
+      },
+      {
+        "hz": 434.0,
+        "dbfs_per_hz": -115.5,
+        "above_floor_db": 19.5
+      },
+      {
+        "hz": 350.0,
+        "dbfs_per_hz": -119.6,
+        "above_floor_db": 13.4
+      }
+    ],
+    "in_ch": 1
+  },
+  "tones": [
+    {
+      "f0": 100,
+      "fundamental_dbfs": -75.78,
+      "harmonics_dbc": [
+        -31.5,
+        -42.5,
+        -64.8,
+        -52.6
+      ],
+      "thd_pct": 2.773,
+      "thd_n_pct": 13.577,
+      "snr_db": 17.5,
+      "level_dbfs": -30.0
+    },
+    {
+      "f0": 1000,
+      "fundamental_dbfs": -74.21,
+      "harmonics_dbc": [
+        -34.1,
+        -57.4,
+        -69.4,
+        -70.5
+      ],
+      "thd_pct": 1.972,
+      "thd_n_pct": 11.027,
+      "snr_db": 19.3,
+      "level_dbfs": -30.0
+    },
+    {
+      "f0": 5000,
+      "fundamental_dbfs": -74.51,
+      "harmonics_dbc": [
+        -35.1,
+        -64.5,
+        -63.1,
+        -69.9
+      ],
+      "thd_pct": 1.76,
+      "thd_n_pct": 11.458,
+      "snr_db": 18.9,
+      "level_dbfs": -30.0
+    }
+  ],
+  "levels": [
+    {
+      "level_dbfs": -50.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -94.36,
+      "harmonics_dbc": [
+        -40.5,
+        -48.8,
+        -44.1,
+        -50.9
+      ],
+      "thd_pct": 1.22,
+      "thd_n_pct": 104.845,
+      "snr_db": -0.4
+    },
+    {
+      "level_dbfs": -48.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -92.36,
+      "harmonics_dbc": [
+        -40.2,
+        -53.9,
+        -46.6,
+        -51.9
+      ],
+      "thd_pct": 1.127,
+      "thd_n_pct": 83.998,
+      "snr_db": 1.5
+    },
+    {
+      "level_dbfs": -46.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -90.36,
+      "harmonics_dbc": [
+        -41.3,
+        -60.1,
+        -45.2,
+        -48.1
+      ],
+      "thd_pct": 1.098,
+      "thd_n_pct": 68.034,
+      "snr_db": 3.3
+    },
+    {
+      "level_dbfs": -44.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -88.31,
+      "harmonics_dbc": [
+        -46.3,
+        -52.9,
+        -53.4,
+        -66.2
+      ],
+      "thd_pct": 0.577,
+      "thd_n_pct": 52.733,
+      "snr_db": 5.6
+    },
+    {
+      "level_dbfs": -42.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -86.35,
+      "harmonics_dbc": [
+        -43.3,
+        -50.6,
+        -54.1,
+        -59.0
+      ],
+      "thd_pct": 0.779,
+      "thd_n_pct": 42.391,
+      "snr_db": 7.5
+    },
+    {
+      "level_dbfs": -40.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -84.25,
+      "harmonics_dbc": [
+        -42.7,
+        -56.4,
+        -54.7,
+        -53.8
+      ],
+      "thd_pct": 0.795,
+      "thd_n_pct": 33.232,
+      "snr_db": 9.6
+    },
+    {
+      "level_dbfs": -38.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -82.25,
+      "harmonics_dbc": [
+        -41.0,
+        -58.6,
+        -65.2,
+        -60.9
+      ],
+      "thd_pct": 0.908,
+      "thd_n_pct": 26.049,
+      "snr_db": 11.7
+    },
+    {
+      "level_dbfs": -36.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -80.28,
+      "harmonics_dbc": [
+        -40.0,
+        -53.8,
+        -65.7,
+        -61.8
+      ],
+      "thd_pct": 1.022,
+      "thd_n_pct": 21.372,
+      "snr_db": 13.4
+    },
+    {
+      "level_dbfs": -34.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -78.25,
+      "harmonics_dbc": [
+        -38.4,
+        -55.7,
+        -85.0,
+        -80.8
+      ],
+      "thd_pct": 1.217,
+      "thd_n_pct": 16.355,
+      "snr_db": 15.8
+    },
+    {
+      "level_dbfs": -32.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -76.23,
+      "harmonics_dbc": [
+        -36.1,
+        -65.2,
+        -71.3,
+        -73.3
+      ],
+      "thd_pct": 1.568,
+      "thd_n_pct": 13.106,
+      "snr_db": 17.7
+    },
+    {
+      "level_dbfs": -30.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -74.23,
+      "harmonics_dbc": [
+        -34.3,
+        -58.0,
+        -61.6,
+        -67.8
+      ],
+      "thd_pct": 1.927,
+      "thd_n_pct": 10.589,
+      "snr_db": 19.6
+    },
+    {
+      "level_dbfs": -28.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -72.21,
+      "harmonics_dbc": [
+        -32.1,
+        -57.0,
+        -65.1,
+        -72.9
+      ],
+      "thd_pct": 2.486,
+      "thd_n_pct": 8.53,
+      "snr_db": 21.8
+    },
+    {
+      "level_dbfs": -26.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -70.2,
+      "harmonics_dbc": [
+        -30.1,
+        -57.0,
+        -67.7,
+        -71.5
+      ],
+      "thd_pct": 3.124,
+      "thd_n_pct": 7.778,
+      "snr_db": 22.9
+    },
+    {
+      "level_dbfs": -24.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -68.18,
+      "harmonics_dbc": [
+        -28.2,
+        -53.7,
+        -71.7,
+        -74.5
+      ],
+      "thd_pct": 3.892,
+      "thd_n_pct": 6.713,
+      "snr_db": 25.2
+    },
+    {
+      "level_dbfs": -22.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -66.16,
+      "harmonics_dbc": [
+        -26.1,
+        -50.9,
+        -86.5,
+        -75.8
+      ],
+      "thd_pct": 4.938,
+      "thd_n_pct": 6.63,
+      "snr_db": 27.1
+    },
+    {
+      "level_dbfs": -20.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -64.11,
+      "harmonics_dbc": [
+        -24.1,
+        -47.5,
+        -72.9,
+        -97.4
+      ],
+      "thd_pct": 6.252,
+      "thd_n_pct": 7.201,
+      "snr_db": 28.9
+    },
+    {
+      "level_dbfs": -18.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -62.05,
+      "harmonics_dbc": [
+        -22.1,
+        -43.5,
+        -65.4,
+        -86.2
+      ],
+      "thd_pct": 7.899,
+      "thd_n_pct": 8.379,
+      "snr_db": 31.1
+    },
+    {
+      "level_dbfs": -16.0,
+      "input_clipped": false,
+      "f0": 1000,
+      "fundamental_dbfs": -59.95,
+      "harmonics_dbc": [
+        -20.0,
+        -39.5,
+        -58.9,
+        -80.0
+      ],
+      "thd_pct": 10.019,
+      "thd_n_pct": 10.249,
+      "snr_db": 33.3
+    }
+  ]
+}

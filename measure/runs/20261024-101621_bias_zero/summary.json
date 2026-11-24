@@ -1,0 +1,24 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "bias_zero",
+  "notes": "boxed, C7/C8 linked, bias trimmer at zero (LED off)",
+  "time": "2026-10-24T10:16:21",
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -96.1,
+    "rms_dbfs_a_weighted": -99.9,
+    "hum_dbfs": {
+      "50Hz": -122.4,
+      "100Hz": -119.5,
+      "150Hz": -118.5,
+      "200Hz": -117.5,
+      "250Hz": -117.2,
+      "300Hz": -116.7
+    }
+  }
+}

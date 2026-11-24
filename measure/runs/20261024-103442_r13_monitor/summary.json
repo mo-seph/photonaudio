@@ -1,0 +1,102 @@
+{
+  "rig": {
+    "device": "Scarlett",
+    "out_ch": 1,
+    "in_ch": 1,
+    "fs": 48000
+  },
+  "label": "r13_monitor",
+  "notes": "In 1 = photosensor, In 2 = top of R13 (LED current) via TS jack; boxed; C7/C8 linked; 10k pin 7 -> GND fitted; bias as set on the trimmer",
+  "time": "2026-10-24T10:34:42",
+  "noise": {
+    "secs": 10.0,
+    "rms_dbfs_20_20k": -56.8,
+    "rms_dbfs_a_weighted": -60.5,
+    "hum_dbfs": {
+      "50Hz": -62.1,
+      "100Hz": -67.3,
+      "150Hz": -67.9,
+      "200Hz": -76.7,
+      "250Hz": -77.8,
+      "300Hz": -79.5
+    },
+    "peaks": [
+      {
+        "hz": 50.0,
+        "dbfs_per_hz": -63.9,
+        "above_floor_db": 32.1
+      },
+      {
+        "hz": 100.0,
+        "dbfs_per_hz": -69.1,
+        "above_floor_db": 27.1
+      },
+      {
+        "hz": 150.0,
+        "dbfs_per_hz": -69.6,
+        "above_floor_db": 27.6
+      },
+      {
+        "hz": 200.0,
+        "dbfs_per_hz": -78.6,
+        "above_floor_db": 19.7
+      },
+      {
+        "hz": 450.0,
+        "dbfs_per_hz": -78.7,
+        "above_floor_db": 22.6
+      },
+      {
+        "hz": 250.0,
+        "dbfs_per_hz": -79.7,
+        "above_floor_db": 20.3
+      }
+    ],
+    "monitor_in": 2,
+    "monitor": {
+      "rms_dbfs_20_20k": -63.0,
+      "rms_dbfs_a_weighted": -78.8,
+      "hum_dbfs": {
+        "50Hz": -64.2,
+        "100Hz": -72.6,
+        "150Hz": -75.9,
+        "200Hz": -83.9,
+        "250Hz": -77.9,
+        "300Hz": -81.0
+      },
+      "peaks": [
+        {
+          "hz": 50.0,
+          "dbfs_per_hz": -66.0,
+          "above_floor_db": 46.1
+        },
+        {
+          "hz": 100.0,
+          "dbfs_per_hz": -74.4,
+          "above_floor_db": 36.8
+        },
+        {
+          "hz": 150.0,
+          "dbfs_per_hz": -77.6,
+          "above_floor_db": 35.0
+        },
+        {
+          "hz": 250.0,
+          "dbfs_per_hz": -79.7,
+          "above_floor_db": 34.8
+        },
+        {
+          "hz": 350.0,
+          "dbfs_per_hz": -81.8,
+          "above_floor_db": 34.2
+        },
+        {
+          "hz": 300.0,
+          "dbfs_per_hz": -82.8,
+          "above_floor_db": 32.0
+        }
+      ]
+    },
+    "in_ch": 1
+  }
+}
