@@ -690,7 +690,7 @@ First run (`runs/20261023-193522_first`):
 
 ## Repository and KiCad conversion (2026-11-24)
 - This folder is its own git repo, pushed to github.com/mo-seph/photonaudio (**public**). Raw audio (`*.wav`, `*.aif`, `*.mp3`) is gitignored; each run's CSV/PNG/JSON results are committed.
-- `dac_test/platformio.ini` is **not committed yet**: its last line is a stray `wifi {...}` paste holding the WiFi name and password. Delete that line, then commit the file. It is untracked but not ignored, so don't `git add -A` until then.
+- `dac_test/platformio.ini` was held back at first: it ended in a stray `wifi {...}` paste holding the WiFi name and password. Dave deleted the line and it was committed on 2026-11-25. Before committing to this public repo, check for credentials.
 - README.md with two pictures of the board (`images/`, made by `kicad/tools/make_images.py`).
 - `kicad/`: the v1.0 board converted with KiCad 10's Eagle importer and checked against the `.brd`. All parts and all 99 nets are identical, as are the track, via and pour counts; nothing is unconnected; DRC with the Fusion rules gives 0 errors and 222 silkscreen warnings. Details and the re-run commands are in `kicad/README.md`.
 - No KiCad schematic yet. Eagle schematics import only from KiCad's window, and the quad board's own `.sch` was never exported from Fusion. The KiCad MCP's translator split every ground symbol into its own net on `Driver Channel.sch`, so it's not usable.
